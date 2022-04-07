@@ -1,0 +1,36 @@
+{
+    "BowtieRef": "/path/to/ref/hg38/hg38",
+    "GenomeBuild": "GRCh38",
+    "OutputPath": "/path/to/output/file",
+    "ScriptDir": "/path/to/scripts/file",
+    "BinFlag": "200K",
+    "Dynamic_Bin": "/path/to/dynamic/bin/file/hg38.varbin.gc.content.200K.bowtie.Umap_k24.NCG.txt",
+    "Bad_Bin": "/path/to/bad/bin/file/hg38.200K.Umap_k24.NCG.bad.txt",
+    "SD": "1",
+    "alpha": "0.0001",
+    "AnnotSVpath": "/path/to/AnnotSV-master/bin/AnnotSV",
+    "CN_Diff_Criterion": "0.5",
+    "Samples": {
+        "PD10_HYY_20201227M1-10_A1": {
+            "seq1": "/path/to/Read1/Fastq/PD10_HYY_20201227M1-10_A1.1.fastq.gz",
+            "seq2": "/path/to/Read2/Fastq/PD10_HYY_20201227M1-10_A1.2.fastq.gz",
+            "name": "20201227M1-10_A1",
+            "ploidy": "Diploid",
+            "sex": "m"
+        },
+        "PD10_HYY_20201227M1-10_A10": {
+            "seq1": "/path/to/Read1/Fastq/PD10_HYY_20201227M1-10_A10.1.fastq.gz",
+            "seq2": "/path/to/Read2/Fastq/PD10_HYY_20201227M1-10_A10.2.fastq.gz",
+            "name": "20201227M1-10_A10",
+            "ploidy": "Diploid",
+            "sex": "m"
+        },
+        "PD10_HYY_20201227M1-10_A11": {
+            "seq1": "/path/to/Read1/Fastq/PD10_HYY_20201227M1-10_A11.1.fastq.gz",
+            "seq2": "/path/to/Read2/Fastq/PD10_HYY_20201227M1-10_A11.2.fastq.gz",
+            "name": "20201227M1-10_A11",
+            "ploidy": "Diploid",
+            "sex": "m"
+        }
+    }
+}
